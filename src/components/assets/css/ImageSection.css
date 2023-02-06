@@ -1,0 +1,16 @@
+.imgdiv {
+  background: linear-gradient(270deg, #fe704366, #00000069);
+  height: 100vh;
+}
+.textdiv {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 50px;
+  color: white;
+}
