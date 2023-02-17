@@ -8,48 +8,54 @@ function MidContent() {
       <div className="  md:w-[85%] w-full   justify-center md:mt-24 m-auto p-4">
         <div className="md:w-[70%] mt-8 w-full m-auto">
           <div className="md:w-[70%]  w-full md:text-center m-auto font-bold md:text-[35px] text-[20px] text-black">
-            Use sensitive data without sacrificing privacy
+            Host your website on our Panel and get the best performance
           </div>
           <div className="md:mt-8 mt-4 font-semibold md:text-[20px] text-[16px] text-[#999] text-center">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est.
+            We are giving you the best hosting service without any cost .
+            Moreover, you will get the 24/7 support from our team.
           </div>
-        </div> 
+        </div>
         <div className="md:flex flex-wrap items-center justify-between md:mt-24 mt-8  m-auto  md:w-[85%] w-[90%]   ">
           <div className="md:w-[48%]  w-full m-auto">
             <div className="font-bold  md:text-[35px] text-[20px]">
-              Standardized dev environments
+              Host any types of website on our panel
             </div>
             <div className="font-semibold text-[17px] md:mt-6 mt-4 text-[#999]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              optio quia fugiat dicta similique nostrum exercitationem iusto
-              veniam veritatis eius aliquam numquam, cupiditate vero. Ea placeat
-              molestias repudiandae eaque ducimus!
+              In this , you have access to upload your backend and front end
+              code to achieve your dreams with your own website.
             </div>
             <div className="md:mt-8 mt-4">
               <div className="flex items-center md:mt-8 mt-4 font-bold md:text-[20px] text-[17px]">
                 <div className="m-2">
                   <GiCheckMark />
                 </div>
-                <div className="m-2 md:text-black text-[#1b1b1b]">Performance reviews</div>
+                <div className="m-2 md:text-black text-[#1b1b1b]">
+                  Node js & Express Js
+                </div>
               </div>
               <div className="flex items-center md:mt-8 mt-4 font-bold md:text-[20px] text-[17px]">
                 <div className="m-2">
                   <GiCheckMark />
                 </div>
-                <div className="m-2 md:text-black text-[#1b1b1b]">Performance reviews</div>
+                <div className="m-2 md:text-black text-[#1b1b1b]">
+                  PHP & Laravel
+                </div>
               </div>
               <div className="flex items-center md:mt-8 mt-4 font-bold md:text-[20px] text-[17px]">
                 <div className="m-2">
                   <GiCheckMark />
                 </div>
-                <div className="m-2 md:text-black text-[#1b1b1b]">Performance reviews</div>
+                <div className="m-2 md:text-black text-[#1b1b1b]">
+                  Python & Django
+                </div>
               </div>
               <div className="flex items-center md:mt-8 mt-4 font-bold md:text-[20px] text-[17px]">
                 <div className="m-2">
                   <GiCheckMark />
                 </div>
-                <div className="m-2 md:text-black text-[#1b1b1b]">Performance reviews</div>
+                <div className="m-2 md:text-black text-[#1b1b1b]">
+                  MongoDb & Mysql
+                </div>
               </div>
             </div>
           </div>
@@ -60,11 +66,11 @@ function MidContent() {
       </div>
       <div className="md:flex md:w-[85%] w-[90%] m-auto justify-center mt-24  p-4">
         <div className="md:w-[40%] w-full    m-auto text-justify  ">
-          <div className="p-4 text-[15px] pb-8 text-[#666]">
+          <div className="p-4 text-[17px] pb-8 text-[#666]">
             We have more than{" "}
             <span className="font-bold text-black">
               {" "}
-          6 years of experiences{" "}
+              6 years of experiences{" "}
             </span>
             in Making Products
           </div>
@@ -78,12 +84,12 @@ function MidContent() {
         </div>
         <div className="border-dashed border-[1px] border-[#BBBBBB]  "></div>
         <div className="md:w-[40%] w-full m-auto text-justify md:p-6 p-2 md:mt-0  mt-4 leading-8  text-[#999]">
-          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-          molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-          vero eros et accumsan et iusto odio dignissim qui blandit praesent
-          luptatum zzril delenit augue duis dolore te feugait nulla facilisi
-          Mirum est notare quam littera gothica, quam nunc putamus parum claram,
-          antepos uerit litterarum formas humanitatis per seacula quarta.
+          We have delivered numerous projects to our clients and best thing is
+          they all are satisfied with our services . Apart from the hosting , we
+          also give the best security in your projects . Our biggest achievement
+          is our clients from all around the world 🌍 . Just like <b>Dubai</b>,
+          &nbsp;
+          <b>America</b> , <b>Britain</b> , <b>Germany </b> , <b>Canada</b> and many more.
         </div>
       </div>
     </>

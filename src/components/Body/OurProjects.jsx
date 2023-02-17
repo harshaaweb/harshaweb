@@ -32,8 +32,9 @@ function OurProjects() {
               Structure Planning
             </div>
             <div className="leading-6 text-justify">
-              Duis autem vel eum iriure dolor in hendrerit in vulpu tate velit
-              esse molestie consequat.
+              We are a team of designers and developers that create high quality
+              which build the complete sturcture of your website to understand
+              the workflow.
             </div>
           </div>
           <div className="w-[350px] md:m-4 m-auto md:pt-0 pt-12">
@@ -44,8 +45,9 @@ function OurProjects() {
               Implementing UI
             </div>
             <div className="leading-6 text-justify">
-              Duis autem vel eum iriure dolor in hendrerit in vulpu tate velit
-              esse molestie consequat.
+              After the planning we start the implementation of the UI and
+              develop the website with the help of the latest technologies to
+              increase the beauty of your website.
             </div>
           </div>
           <div className="w-[350px] md:m-4 m-auto md:pt-0 pt-12">
@@ -54,8 +56,9 @@ function OurProjects() {
             </div>
             <div className="mt-4 mb-4 font-bold text-[22px]">Quality Work</div>
             <div className="leading-6 text-justify">
-              Duis autem vel eum iriure dolor in hendrerit in vulpu tate velit
-              esse molestie consequat.
+              Then our major task is to make the website responsive and dynamic
+              to make it user friendly and easy to use. With fast <b>API</b>{" "}
+              integration , we are able to make your website extremely fast .
             </div>
           </div>
         </div>
@@ -97,17 +100,12 @@ function OurProjects() {
               </Swiper>
             </div>
             <div className="rightdiv   m-auto text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              mollitia dignissimos ut eum similique error voluptatum autem enim
-              voluptate eos doloremque, accusantium nostrum cumque doloribus
-              quam laboriosam quasi minus laudantium! Lorem, ipsum dolor sit
-              amet consectetur adipisicing elit. Tempore voluptas aperiam
-              praesentium quis impedit illo fugiat. Veniam quibusdam ipsam
-              porro? Culpa illo nesciunt cumque rem vel consectetur dicta dolore
-              quo? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Placeat repudiandae rem iste tenetur dolores voluptatibus illum
-              libero quod, cum perferendis incidunt odit porro molestias
-              provident neque quam velit eaque recusandae.
+              Primarily, we have a good knowledge of every programming languages
+              but our expertise is <b>MERN Stack </b>,&nbsp;<b>React Native</b>,
+              &nbsp;<b>Php & Laravell</b>,&nbsp;<b>Flutter</b>,&nbsp;{" "}
+              <b>Python</b>.<br /> We are using our official software{" "}
+              <b>(Dauqu Panel)</b> to host websites and applications for free .
+              The best thing is , it is extremely fast and secure.
             </div>
           </div>
         </div>

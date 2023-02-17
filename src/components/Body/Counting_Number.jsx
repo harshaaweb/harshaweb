@@ -23,9 +23,8 @@ function Counting_Number() {
                 COMPANY
               </div>
               <div className="md:border-l-2 md:border-dotted md:mt-0 mt-8 md:w-[50%] w-full m-auto  ">
-                <div className="md:pl-8 text-white  md:text-[14px] text-[18px]">
-                  Nam liber tempor cum soluta nobis eleifend option congue nihil
-                  imperdiet doming id quod mazim placerat facer.
+                <div className="md:pl-8 text-white  md:text-[17px] text-[18px]">
+                  It's our assurance that you will not need any revision after the delivery of your project. We will make sure that your project is delivered on time and with the best quality.
                 </div>
               </div>
             </div>
@@ -40,7 +39,7 @@ function Counting_Number() {
               </div>
               <div className="w-[200px] ">
                 <div className="font-bold md:text-[50px] text-[25px] md:mt-0 mt-6 text-white">
-                  <CountUp end={60} duration={8} />
+                  <CountUp end={65} duration={8} />
                 </div>
                 <div className="font-semibold md:text-[20px] text-[17px] text-white">
                   Completed Projects

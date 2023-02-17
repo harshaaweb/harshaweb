@@ -17,8 +17,12 @@ function Top_Content() {
             <div className="overflow-hidden min-h-[40px] max-h-[40px] flex items-center leading-[40px]">
               <div className="relative top-[40px] animate-text h-[120px]">
                 <div className="text-[#d63ff1c8]">Interactive Website 💻</div>
-                <div className="text-[#efa423] ml-2">High Security / SMTP 🔐</div>
+                <div className="text-[#efa423] ml-2">
+                  High Security / SMTP 🔐
+                </div>
                 <div className="text-[#3A7FF1]">Creative Application 📱</div>
+                <div className="text-[#81df5e]">Low Price Hosting 💶</div>
+                <div className="text-[#e7f271]">Maintenance Service 📐</div>
               </div>
             </div>
             {/* <div className="overflow-hidden min-h-[40px] sm:hidden">
@@ -45,7 +49,7 @@ function Top_Content() {
             </div>
             <div className="w-[200px] md:text-center text-left md:m-0 m-auto md:pt-0 pt-4">
               <div className="font-bold md:text-[50px] text-[22px] text-white">
-                <CountUp end={60} duration={8} />
+                <CountUp end={65} duration={8} />
               </div>
               <div className="font-semibold md:text-[20px] text-[16px] text-white">
                 Completed Projects
