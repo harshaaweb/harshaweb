@@ -109,24 +109,30 @@ function Client_Slider() {
                         </div>
                       ) : item.rating === 3 ? (
                         <div className="flex items-center text-[18px] h-[30px] py-2 italic text-[#A7A7A7] ">
-                          <AiTwotoneStar color="red" />
-                          <AiTwotoneStar color="red" />
-                          <AiTwotoneStar color="red" />
+                          <AiTwotoneStar style={{
+                            color:"#efa423"
+                          }} />
+                          <AiTwotoneStar style={{
+                            color:"#efa423"
+                          }} />
+                          <AiTwotoneStar style={{
+                            color:"#efa423"
+                          }} />
                         </div>
                       ) : item.rating === 4 ? (
                         <div className="flex items-center text-[18px] h-[30px] py-2 italic text-[#A7A7A7] ">
-                          <AiTwotoneStar color="red" />
-                          <AiTwotoneStar color="red" />
-                          <AiTwotoneStar color="red" />
-                          <AiTwotoneStar color="red" />
+                          <AiTwotoneStar color="green" />
+                          <AiTwotoneStar color="green" />
+                          <AiTwotoneStar color="green" />
+                          <AiTwotoneStar color="green" />
                         </div>
                       ) : item.rating === 5 ? (
                         <div className="flex items-center text-[18px] h-[30px] py-2 italic text-[#A7A7A7] ">
-                          <AiTwotoneStar color="red" />
-                          <AiTwotoneStar color="red" />
-                          <AiTwotoneStar color="red" />
-                          <AiTwotoneStar color="red" />
-                          <AiTwotoneStar color="red" />
+                          <AiTwotoneStar color="green" />
+                          <AiTwotoneStar color="green" />
+                          <AiTwotoneStar color="green" />
+                          <AiTwotoneStar color="green" />
+                          <AiTwotoneStar color="green" />
                         </div>
                       ) : null}
 
