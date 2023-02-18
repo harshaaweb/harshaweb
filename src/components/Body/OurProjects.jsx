@@ -23,7 +23,7 @@ function OurProjects() {
         <div className="text-center text-black font-bold md:text-[35px] text-[25px]">
           What We Do
         </div>
-        <div className="p-6 lg:p-24 flex flex-wrap  items-center  justify-evenly">
+        <div className=" lg:p-24 flex flex-wrap  items-center  justify-evenly">
           <div className="w-[350px]  md:m-4 m-auto md:pt-0 pt-12">
             <div className="w-[350px] h-[262px]">
               <img src={planning} alt="" srcset="" className="w-full h-full" />

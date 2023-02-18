@@ -20,7 +20,7 @@ function LatestNews() {
               Dauqu Panel is a web panel that allows you to manage your website
               easily and quickly. It allows to host your website on the cloud
               easily. Click
-              <a href="https://dauqu-cp.vercel.app/">
+              <a href="https://wcp.dauqu.com/ui/admin/">
                 <span className="font-bold underline italic"> here </span>
               </a>
               to visit Dauqu Panel.
@@ -35,7 +35,7 @@ function LatestNews() {
               From Dauqu website you can easily purchase our products and
               services and also you can get more information about our products
               and services. Click
-              <a href="https://cp-dauqu-frontend.vercel.app/">
+              <a href="https://dauqu.com/">
                 <span className="font-bold underline italic"> here </span>
               </a>
               to visit Dauqu Website.
@@ -47,8 +47,9 @@ function LatestNews() {
             </div>
             <div className="mt-4 mb-4 font-bold text-[22px]">Best Security</div>
             <div className="leading-6 text-justify">
-              We provide the best security for your website. Alogn this we also provide the budget plan  for your website .
-              It is very easy to use and manage your website. 
+              We provide the best security for your website. Alogn this we also
+              provide the budget plan for your website . It is very easy to use
+              and manage your website.
             </div>
           </div>
         </div>

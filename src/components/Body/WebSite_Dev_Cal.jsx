@@ -83,6 +83,7 @@ import Navbar from "../Header/Navbar";
 import Footer from "../Footer/Footer";
 import { motion } from "framer-motion";
 import Please_Login_Page from "./Please_Login_Page";
+import { toast, ToastContainer } from "react-toastify";
 
 function WebSite_Dev_Cal() {
   const [checklogin, setChecklogin] = useState("");
@@ -116,6 +117,19 @@ function WebSite_Dev_Cal() {
     scrollToTop();
   }, []);
 
+  const notifysuccess = () => {
+    toast.success("Request Send successfully 👍", {
+      position: "top-right",
+      autoClose: 1000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+  };
+
   const [frontend, setFrontend] = useState("");
   const [backend, setBackend] = useState("");
   const [database, setDatabase] = useState("");
@@ -129,7 +143,7 @@ function WebSite_Dev_Cal() {
   const [file, setFile] = useState("");
 
   const [data, setData] = useState();
-
+  const [msgSuccessToast, setMsgSuccessToast] = useState(false);
   const uuid = require("uuid");
   const req_id = uuid.v4();
 
@@ -160,7 +174,9 @@ function WebSite_Dev_Cal() {
     axios.post(`${API}/website_request`, formdata).then(() => {
       console.log("success");
       console.log(data);
-      navigate("/payment", { state: { data: data } });
+      // navigate("/payment", { state: { data: data } });
+      setMsgSuccessToast(true);
+      notifysuccess();
       localStorage.setItem("amount", totalEstimate);
       localStorage.setItem("projectType", "Website");
       localStorage.setItem("req_id", req_id);
@@ -4841,6 +4857,20 @@ function WebSite_Dev_Cal() {
                 </div>
               </div>
             </div>
+            {msgSuccessToast === true ? (
+              <ToastContainer
+                position="top-right"
+                autoClose={1000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="dark"
+              />
+            ) : null}
           </div>
         ) : (
           <>

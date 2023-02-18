@@ -106,9 +106,9 @@ function App_Dev_Cal() {
     });
   };
 
-  const availablesoon=()=>{
-    alert("This option will be available soon..")
-  }
+  const availablesoon = () => {
+    alert("This option will be available soon..");
+  };
   return (
     <div>
       <div>
@@ -1249,10 +1249,7 @@ function App_Dev_Cal() {
                       Total Price
                     </button>
                   </div>
-                  <div
-                    className="md:w-[400px] div w-full p-6"
-                    onClick={availablesoon}
-                  >
+                  <div className="md:w-[400px] div w-full p-6">
                     <button className="text-[20px] py-[4px] w-full text-center border bg-[#d33847] text-white">
                       Checkout
                     </button>

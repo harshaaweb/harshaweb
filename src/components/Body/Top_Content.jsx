@@ -39,7 +39,7 @@ function Top_Content() {
           transition={{ duration: 4 }}
         >
           <div className="mt-16 md:bg-[#1F2937] p-4 rounded-md shadow-md md:flex flex-wrap items-center sm:justify-between  w-full">
-            <div className="w-[200px] md:text-center text-left md:m-0 m-auto md:pt-0 pt-4 ">
+            <div className="w-[200px] md:text-center text-left md:m-0  md:pt-0 pt-4 ">
               <div className="font-bold md:text-[50px] text-[22px] text-white">
                 <CountUp end={60} duration={8} />
               </div>
@@ -47,7 +47,7 @@ function Top_Content() {
                 Satisified Clients
               </div>
             </div>
-            <div className="w-[200px] md:text-center text-left md:m-0 m-auto md:pt-0 pt-4">
+            <div className="w-[200px] md:text-center text-left md:m-0  md:pt-0 pt-4">
               <div className="font-bold md:text-[50px] text-[22px] text-white">
                 <CountUp end={65} duration={8} />
               </div>
@@ -55,7 +55,7 @@ function Top_Content() {
                 Completed Projects
               </div>
             </div>
-            <div className="w-[200px] md:text-center text-left md:m-0 m-auto md:pt-0 pt-4">
+            <div className="w-[200px] md:text-center text-left md:m-0  md:pt-0 pt-4">
               <div className="font-bold md:text-[50px] text-[22px] text-white">
                 <CountUp end={99} duration={8} />%
               </div>
@@ -63,7 +63,7 @@ function Top_Content() {
                 Satisfaction rate
               </div>
             </div>
-            <div className="w-[200px] md:text-center text-left md:m-0 m-auto md:pt-0 pt-4">
+            <div className="w-[200px] md:text-center text-left md:m-0  md:pt-0 pt-4">
               <div className="font-bold md:text-[50px] text-[22px] text-white">
                 <CountUp end={58} duration={8} />
               </div>
@@ -71,7 +71,7 @@ function Top_Content() {
                 Satisified Clients
               </div>
             </div>
-            <div className="w-[200px] md:text-center text-left md:m-0 m-auto md:pt-0 pt-4">
+            <div className="w-[200px] md:text-center text-left md:m-0  md:pt-0 pt-4">
               <div className="font-bold md:text-[50px] text-[22px] text-white">
                 <CountUp end={87} duration={8} />+
               </div>

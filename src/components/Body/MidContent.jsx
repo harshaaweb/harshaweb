@@ -15,7 +15,7 @@ function MidContent() {
             Moreover, you will get the 24/7 support from our team.
           </div>
         </div>
-        <div className="md:flex flex-wrap items-center justify-between md:mt-24 mt-8  m-auto  md:w-[85%] w-[90%]   ">
+        <div className="md:flex flex-wrap items-center justify-between md:mt-24 mt-8  m-auto  md:w-[85%] w-[full]   ">
           <div className="md:w-[48%]  w-full m-auto">
             <div className="font-bold  md:text-[35px] text-[20px]">
               Host any types of website on our panel
@@ -64,9 +64,9 @@ function MidContent() {
           </div>
         </div>
       </div>
-      <div className="md:flex md:w-[85%] w-[90%] m-auto justify-center mt-24  p-4">
+      <div className="md:flex md:w-[85%] w-[90%] m-auto justify-center mt-16  p-4">
         <div className="md:w-[40%] w-full    m-auto text-justify  ">
-          <div className="p-4 text-[17px] pb-8 text-[#666]">
+          <div className="p-4 md:text-[17px] text-[20px] pb-8 text-[#666]">
             We have more than{" "}
             <span className="font-bold text-black">
               {" "}
@@ -77,10 +77,6 @@ function MidContent() {
           <div className="pb-4 pt-4 ">
             <img src={bg3} alt="" srcset="" />
           </div>
-          <div className="p-4 text-[15px] pb-8 text-[#999]">
-            “Duis autem vel eum iriure dolor in hendrerit in vulputate velit
-            esse molestie consequat.”
-          </div>
         </div>
         <div className="border-dashed border-[1px] border-[#BBBBBB]  "></div>
         <div className="md:w-[40%] w-full m-auto text-justify md:p-6 p-2 md:mt-0  mt-4 leading-8  text-[#999]">
@@ -89,7 +85,8 @@ function MidContent() {
           also give the best security in your projects . Our biggest achievement
           is our clients from all around the world 🌍 . Just like <b>Dubai</b>,
           &nbsp;
-          <b>America</b> , <b>Britain</b> , <b>Germany </b> , <b>Canada</b> and many more.
+          <b>America</b> , <b>Britain</b> , <b>Germany </b> , <b>Canada</b> and
+          many more.
         </div>
       </div>
     </>
